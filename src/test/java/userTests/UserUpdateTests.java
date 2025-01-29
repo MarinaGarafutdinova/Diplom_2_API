@@ -20,7 +20,7 @@ public class UserUpdateTests {
     private final String updName = "Mari"+ RandomStringUtils.randomAlphabetic(3);
     private final String updEmail = "Mari"+ RandomStringUtils.randomAlphabetic(3)+ "@yandex.ru";
     private final String updPassword = "Pas" + RandomStringUtils.randomAlphabetic(3);
-    User updUser = new User();
+    private final User updUser = new User();
 
 
     @Before
